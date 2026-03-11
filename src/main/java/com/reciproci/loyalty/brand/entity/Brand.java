@@ -15,6 +15,7 @@ import jakarta.persistence.Table;
 @Table(name = "BRAND")
 public class Brand {
     // comment form main
+	//comment from manoj branch
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
