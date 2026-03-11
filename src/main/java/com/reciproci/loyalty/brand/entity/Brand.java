@@ -14,6 +14,7 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "BRAND")
 public class Brand {
+	//comment from manoj branch
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
