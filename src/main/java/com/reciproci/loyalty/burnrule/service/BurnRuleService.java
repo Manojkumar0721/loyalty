@@ -284,7 +284,7 @@ public class BurnRuleService {
 
 	    // 3. Map Store List
 	    if (burnRule.getStore() != null) {
-	    	log.debug("Found {} associated stores for Burn Rule {}", burnRule.getStore().size());
+	    	log.debug("Found {} associated stores for Burn Rule {}", burnRule.getStore().size(), burnRuleId);
 	        viewBean.setStoreList(burnRule.getStore());
 	    }
 
